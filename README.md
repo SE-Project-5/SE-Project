@@ -27,4 +27,4 @@
     - 04.15 회의 내용 : PERT 차트 작성 및 Gantt 차트 작성 협의
     - 04.16 회의 내용 : 산출물 관리 수정, 오탈자 수정, 일정 수정 
 
-## 프로젝트 중간 보고 영상 링크 https://youtu.be/GcJQ4UhLIGM
+## 프로젝트 중간 보고 영상 링크 https://youtu.be/_p1bSHCdZ4I
