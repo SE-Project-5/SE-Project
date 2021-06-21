@@ -1,0 +1,107 @@
+<resources>
+
+    <string name="app_name">여기놀자</string>
+    <string name="campName1">소공 캠핑장</string>
+    <string name="campName2">중공 캠핑장</string>
+    <string name="campName3">대공 캠핑장</string>
+    <string name="campName4">상명 캠핑장</string>
+    <string name="campName5">컴과 캠핑장</string>
+    <string name="campName6">커피 캠핑장</string>
+
+    <string name="campLocation1">경기</string>
+    <string name="campLocation2">서울</string>
+    <string name="campLocation3">인천</string>
+    <string name="campLocation4">부산</string>
+    <string name="campLocation5">대전</string>
+    <string name="campLocation6">대구</string>
+
+    <string name="campScore1">4.5</string>
+    <string name="campScore2">5.0</string>
+    <string name="campScore3">3.0</string>
+    <string name="campScore4">2.0</string>
+    <string name="campScore5">3.5</string>
+    <string name="campScore6">1.0</string>
+    <string name="campScore7">4.0</string>
+
+    <string name="date1">2021.01.26</string>
+    <string name="date2">2021.02.21</string>
+    <string name="date3">2021.03.08</string>
+    <string name="date4">2021.04.25</string>
+    <string name="date5">2021.05.06</string>
+    <string name="date6">2021.06.26</string>
+
+
+    <string name="campInfo">"캠핑장 주소\n
+    - 인원당 가격 = xxxx원\n
+    - 주의사항\n
+    - 오시는 길\n
+    -\n
+    -\n
+    -\n
+    -\n
+    -\n
+    -\n
+    -\n
+    -\n"</string>
+    <string-array name="list">
+        <item>경기</item>
+        <item>서울</item>
+        <item>대전</item>
+        <item>대구</item>
+        <item>부산</item>
+        <item>인천</item>
+    </string-array>
+    <string-array name="list2">
+        <item>01일</item>
+        <item>02일</item>
+        <item>03일</item>
+        <item>04일</item>
+        <item>05일</item>
+        <item>06일</item>
+        <item>07일</item>
+        <item>08일</item>
+        <item>09일</item>
+        <item>10일</item>
+        <item>11일</item>
+        <item>12일</item>
+        <item>13일</item>
+        <item>14일</item>
+        <item>15일</item>
+        <item>16일</item>
+        <item>17일</item>
+        <item>18일</item>
+        <item>19일</item>
+        <item>20일</item>
+        <item>21일</item>
+        <item>22일</item>
+        <item>23일</item>
+        <item>24일</item>
+        <item>25일</item>
+        <item>26일</item>
+        <item>27일</item>
+        <item>28일</item>
+        <item>29일</item>
+        <item>30일</item>
+        <item>31일</item>
+    </string-array>
+    <string-array name="list2_1">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+    <string-array name="list3">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

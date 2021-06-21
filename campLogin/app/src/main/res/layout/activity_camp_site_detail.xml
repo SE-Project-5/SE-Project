@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CampSiteDetailActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <HorizontalScrollView
+        android:layout_width="406dp"
+        android:layout_height="188dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="410dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/camp7" />
+
+            <ImageView
+                android:layout_width="317dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/camp6" />
+
+            <ImageView
+                android:layout_width="247dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart"
+                android:src="@drawable/camp4" />
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="413dp"
+        android:layout_height="282dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="안녕하십니까 저희 캠핑장은 아주 좋습니다 왜냐하면 저희 캠핑장에는 아주좋은것들이 많기 떄문입니다 그것은 뭐냐면 아주좋은건데 이게 정말 아주 좋답니다안녕하십니까 저희 캠핑장은 아주 좋습니다 왜냐하면 저희 캠핑장에는 아주좋은것들이 많기 떄문입니다 그것은 뭐냐면 아주좋은건데 이게 정말 아주 좋답니다안녕하십니까 저희 캠핑장은 아주 좋습니다 왜냐하면 저희 캠핑장에는 아주좋은것들이 많기 떄문입니다 그것은 뭐냐면 아주좋은건데 이게 정말 아주 좋답니다안녕하십니까 저희 캠핑장은 아주 좋습니다 왜냐하면 저희 캠핑장에는 아주좋은것들이 많기 떄문입니다 그것은 뭐냐면 아주좋은건데 이게 정말 아주 좋답니다안녕하십니까 저희 캠핑장은 아주 좋습니다 왜냐하면 저희 캠핑장에는 아주좋은것들이 많기 떄문입니다 그것은 뭐냐면 아주좋은건데 이게 정말 아주 좋답니다안녕하십니까 저희 캠핑장은 아주 좋습니다 왜냐하면 저희 캠핑장에는 아주좋은것들이 많기 떄문입니다 그것은 뭐냐면 아주좋은건데 이게 정말 아주 좋답니다안녕하십니까 저희 캠핑장은 아주 좋습니다 왜냐하면 저희 캠핑장에는 아주좋은것들이 많기 떄문입니다 그것은 뭐냐면 아주좋은건데 이게 정말 아주 좋답니다" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/HostImge"
+        android:layout_width="122dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginBottom="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView4"
+        android:src="@drawable/camp5"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:text="치구의 스윗홈"
+        app:layout_constraintStart_toEndOf="@+id/HostImge"
+        app:layout_constraintTop_toBottomOf="@+id/textView54" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="9dp"
+        android:text="이치구"
+        android:textSize="30dp"
+        app:layout_constraintStart_toEndOf="@+id/HostImge"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView4" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:text="01051242230"
+        app:layout_constraintStart_toEndOf="@+id/HostImge"
+        app:layout_constraintTop_toBottomOf="@+id/textView55" />
+
+    <Button
+        android:id="@+id/campReservationButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="예약하기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.089"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947" />
+
+    <Button
+        android:id="@+id/campReviewListSearchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="리뷰보기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

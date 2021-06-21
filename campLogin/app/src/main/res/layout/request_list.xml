@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+
+
+
+    <LinearLayout
+        android:layout_width="125dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/name_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고객 이름"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/gusetNum_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="인원 수"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/start_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="입실 날짜"
+            android:textColor="#0026FB"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/end_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="퇴실 날짜"
+            android:textColor="#FF0000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/guestmodified_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="수정 여부"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/guestName_text2"
+            tools:text="고객 이름"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:id="@+id/numOfGuest_text2"
+            tools:text="인원 수"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:id="@+id/startDate_text2"
+            tools:text="입실 날짜"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:id="@+id/endDate_text2"
+            tools:text="퇴실 날짜"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"/>
+
+        <TextView
+            android:id="@+id/modified_text2"
+            tools:text="수정 여부"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/acceptReservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:text="승락"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#79CC7C" />
+
+    <Button
+        android:id="@+id/rejectReservation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:text="거절"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="#F60202" />
+
+</LinearLayout>

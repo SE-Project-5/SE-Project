@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".FindIdentityActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="256dp"
+        android:layout_height="26dp"
+        android:background="@drawable/ic_launcher_foreground"
+        android:text="아이디를 까먹으셨나요?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.206"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136" />
+
+    <EditText
+        android:id="@+id/findNameText"
+        android:layout_width="172dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="이름을 입력하세요"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.209" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="252dp"
+        android:layout_height="18dp"
+        android:text="비밀번호를 까먹으셨나요?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.148"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/findPhoneText_1"
+        app:layout_constraintVertical_bias="0.209" />
+
+    <Button
+        android:id="@+id/findPWButton"
+        android:layout_width="100dp"
+        android:layout_height="51dp"
+        android:text="PW찾기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <EditText
+        android:id="@+id/findIdText"
+        android:layout_width="195dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="아이디를 입력하세요"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.187"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/findPhoneText_1"
+        app:layout_constraintVertical_bias="0.355" />
+
+    <EditText
+        android:id="@+id/findPhoneText_2"
+        android:layout_width="195dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="핸드폰번호를 입력하세요"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/findPhoneText_1"
+        app:layout_constraintVertical_bias="0.475" />
+
+    <EditText
+        android:id="@+id/findPhoneText_1"
+        android:layout_width="221dp"
+        android:layout_height="45dp"
+        android:ems="10"
+        android:hint="핸드폰번호를 입력하세요"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284" />
+
+    <Button
+        android:id="@+id/findIdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID찾기"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
